@@ -7,8 +7,8 @@ use quanlysinhvien;
 -- select*from class where startDate > '2022-12-01' ;
 -- select*from subjectt sub where sub.Credit between 3 and 5 ;
 -- select*from student s where s.StudentName like 'H%'; 
--- update Student set ClassID =2
--- where StudentName = 'Hung' ;
+update Student set ClassID =2
+where StudentName = 'Hung' ;
 -- select*from student;
 select s.studentName, sub.subName, m.mark 
 from student s join mark m on s.studentid = m.studentID join subjectt sub on m.subID = sub.subID
