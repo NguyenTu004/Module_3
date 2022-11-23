@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+
+}
+header{
+    position : fixed;
+    top : 0;
+    left : 0;
+    background-color: #363535;
+    width: 100%;
+    height: 10%;
+    color: white;
+    text-align: center;
+    z-index:1;
+}
+#main{
+    position : fixed;
+    top :10%;
+    left : 0;
+    width: 100%;
+    height : 90%;
+    background-color: #5b5959;
+    overflow: auto;
+}
+content{
+    position : absolute;
+    background-color: #5b5959;
+    top : 0;
+    left : 0;
+    width: 75%;
+    float: left;
+    margin : 10px 10px
+}
+sidebar {
+    border: 1px solid #383535;
+    position : fixed;
+    float: left;
+    background-color: #5b5959;
+    top : 10%;
+    width: 25%;
+    height: 90%;
+    right: 0;
+    overflow: auto;
+}
+footer {
+    position : fixed;
+    background-color: #363535;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+h2{
+    color: white;
+}

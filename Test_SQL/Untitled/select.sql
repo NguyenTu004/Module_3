@@ -128,13 +128,13 @@ where (p.name = 'Máy Giặt' or p.name = 'Tủ Lạnh') and (odt.quantity betwe
 group by o.id
 having count(o.id) = 2;
 -- 12. tim so hoa don sp co price > 200
--- select o.id,count(o.id) as quantity, count(odt.productId)
--- from `order` o left join orderdetail odt on o.id = odt.orderId
--- where o.id not in (select od.id 
--- from `order` od join orderdetail odt on o.id = odt.orderId
--- join product p on odt.productId = p.id
--- where price <200)
--- group by o.id;
+select count(o.time) as quantity
+from `order` o 
+where o.id not in (select od.id 
+from `order` od join orderdetail odt on o.id = odt.orderId
+join product p on odt.productId = p.id
+where price <200) and o.id in (select orderId from orderdetail)
+group by o.id;
 -- 13. tim so hoa don 2006 sp co price < 300
 -- select od.id,count(o.id) as quantity, count(odt.productId)
 -- from `order` od join orderdetail odt on od.id = odt.orderId
@@ -192,4 +192,70 @@ having Price >= all(select sum(p.price*odt.quantity) as Price
 from `order` o join orderdetail odt on o.id = odt.orderId
 join product p on odt.productId = p.id
 where year(o.time) = '2006'
-group by o.id)
+group by o.id);
+-- 20. in ra 3 khach hang mau nhieu nhat
+select cus.id,cus.name,sum(odt.quantity)as quantity
+from customer cus join `order` o on cus.id = o.customerId
+join orderdetail odt on o.id = odt.orderId
+group by cus.id
+order by quantity DESC limit 3;
+-- TAO VIEW
+create view max3Price as
+select price from product group by price order by price DESC limit 3;
+-- 21. in ra sp co gia = 1 in 3 max price
+select p.id, p.name, p.price
+from product p
+where p.price >= all (select min(price) from max3Price);
+-- 22.  in ra sp co gia = 1 in 3 max price co ten bat dau bang chu M
+select p.id, p.name, p.price
+from product p
+where p.price >= all (select min(price) from max3Price) and p.name like 'M%';
+-- 23. doanh thu moi ngay
+select o.time , sum(odt.quantity*p.price)as sumPrice
+from `order` o join orderdetail odt on o.id = odt.orderId
+join product p on odt.productId = p.id
+group by o.time;
+-- 24. tong so luong tung san pham ban trong thang 10/2006
+select p.name, sum(odt.quantity) as quantity
+from product p join orderdetail odt on p.id = odt.productId
+join `order` o on odt.orderId = o.id
+where year(o.time) = '2006'
+group by p.name;
+-- 25. tinh doanh thu tung thang in year 2006
+select month(o.time), sum(p.price*odt.quantity) as price
+from `order` o join orderdetail odt on o.id = odt.orderId
+join product p on odt.productId = p.id
+where year(o.time) = '2006'
+group by month(o.time);
+-- 26. tim hoa don mua it nhat 4 mat hang khac nhau
+select o.id, o.time , count(p.name) as quantity
+from `order` o join orderdetail odt on o.id = odt.orderId
+join product p on odt.productId = p.id
+group by o.id
+having quantity >= 4;
+-- 27. tim hoa don co 3 sp co gia < 300 (3sp khac nhau)
+
+-- 28. tim khach hang co so luot mua nhieu nhat
+select cus.id,cus.name, count(o.id) as quantityBuy
+from customer cus join `order` o on cus.id = o.customerId
+group by cus.id 
+having quantityBuy >= all (select count(o.id) from `order` o group by o.customerId);
+-- 29.thang co daonh thu lon nhat in year 2006
+select month(o.time), sum(p.price*odt.quantity) as price
+from `order` o join orderdetail odt on o.id = odt.orderId
+join product p on odt.productId = p.id
+where year(o.time) = '2006'
+group by month(o.time)
+having price >= all (select sum(p.price*odt.quantity)
+from `order` o join orderdetail odt on o.id = odt.orderId
+join product p on odt.productId = p.id
+where year(o.time) = '2006'
+group by month(o.time));
+-- 30. sp duoc ban it nhat in year 2006
+select p.id, p.name, sum(odt.quantity)as quantity
+from product p join orderdetail odt on p.id = odt.productId
+group by p.id
+having quantity <= all(select sum(odt.quantity)
+from product p join orderdetail odt on p.id = odt.productId
+group by p.id);
+-- 31. in 10 khach hang co doanh so cao nhat tim khach hang co luot mua nhieu nhat
