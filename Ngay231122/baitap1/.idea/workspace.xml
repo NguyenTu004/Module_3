@@ -4,192 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0929a7b-e1ce-4c48-b5a4-951278d36748" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/Ngay221122.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/baitap1Layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/baitap1Layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/baitap2FB.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/baitap2FB.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/baitap3Layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/baitap3Layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/baitap4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/baitap4Mau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/thuchanh1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/thuchanh2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/thuchanh2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/thuchanh3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ngay221122/src/thuchanh3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap1/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap1/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/ServerTimeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/src/main/java/com/example/thuchanh2/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/src/main/java/com/example/thuchanh2/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh2/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/src/main/java/com/example/thuchanh3/ConverterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/src/main/java/com/example/thuchanh3/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh3/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/src/main/java/com/example/thuchanh4/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/src/main/java/com/example/thuchanh4/TranslationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuchanh4/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bootstrap-5.2.2-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/Module_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/Module_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ngay211122/src/thuchanh1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ngay211122/src/thuchanh1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test_SQL/Untitled/select.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Test_SQL/Untitled/select.sql" afterDir="false" />
-    </list>
+    <list default="true" id="c0929a7b-e1ce-4c48-b5a4-951278d36748" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,7 +45,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Module_3"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -287,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669187297950</updated>
       <workItem from="1669187299336" duration="2599000" />
+      <workItem from="1669254106592" duration="15000" />
     </task>
     <servers />
   </component>
