@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +21,6 @@
         <th>Dia chi</th>
         <th>Anh</th>
     </tr>
-     <c:if test="${userList}" != null>
     <c:forEach items="${userList}" var="u">
         <tr>
             <td><c:out value="${u.getName()}"/></td>
@@ -30,8 +29,6 @@
             <td><img src="<c:out value="${u.getImg()}"/>" ></td>
         </tr>
     </c:forEach>
-
-     </c:if>
 </table>
 </body>
 </html>
